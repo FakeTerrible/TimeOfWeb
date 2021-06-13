@@ -1,9 +1,14 @@
 <template>
+<div>
  <now></now>
+ <random-music></random-music>
+</div>
+ 
 </template>
 
 <script setup>
-import Now from './components/Now.vue'
+import Now from "./components/Now.vue";
+import RandomMusic from'./components/RandomMusic.vue'
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md

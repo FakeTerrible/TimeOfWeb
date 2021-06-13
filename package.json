@@ -7,11 +7,16 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "vue": "^3.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.3.5"
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "element-plus": "^1.0.2-beta.46",
+    "vite": "^2.3.5",
+    "vite-plugin-style-import": "^0.10.1"
   }
 }
